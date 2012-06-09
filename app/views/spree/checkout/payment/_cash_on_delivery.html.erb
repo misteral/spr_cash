@@ -1,0 +1,2 @@
+<% param_prefix = "payment_source[#{payment_method.id}][amount]", @order.total %>
+<% @order.bill_address ||= Spree::Address.default %>
